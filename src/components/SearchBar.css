@@ -1,0 +1,30 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .search-bar {
+    width: 400px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar__control {
+    height: 48px;
+    border-radius: 8px;
+  }
+  
+  .search-bar__option {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .search-bar__option--is-focused {
+    background-color: #f0f0f0;
+  }
+  
